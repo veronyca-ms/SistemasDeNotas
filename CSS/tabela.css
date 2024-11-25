@@ -1,0 +1,33 @@
+/* Centralizando o conteúdo da página */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color:  rgb(227, 255, 186);
+    margin: 0;
+    
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: rgb(227, 255, 186);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid green;
+}
+
+th {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+
